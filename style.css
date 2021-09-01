@@ -1,0 +1,91 @@
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   background-color: rgb(63, 226, 177);
+}
+.container {
+   width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   background-color: #fff;
+}
+
+.customHeader {
+   text-align: center;
+   background-color: aquamarine;
+   padding: 15px;
+}
+form {
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-size: 17px;
+   font-weight: 600;
+}
+.customBackground {
+   display: flex;
+   flex-direction: column;
+}
+.customRadius {
+   display: flex;
+   flex-direction: column;
+}
+label {
+   padding: 5px 0px;
+}
+.submit {
+   margin-top: 15px;
+   font-weight: 600;
+}
+input {
+   width: 300px;
+   padding: 5px;
+}
+.customizeCol {
+   border-right: 2px solid rgba(0, 0, 0, 0.123);
+}
+
+.subContainer {
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.styledContent {
+   display: flex;
+   align-items: center;
+   width: 250px;
+   height: 250px;
+   background: transparent;
+}
+.styledContainer {
+   height: 400px;
+}
+h4 {
+   text-align: center;
+   width: 100%;
+}
+.customSubmit{
+   flex-direction: row;
+}
+.customSubmit input{
+   width: 150px;
+
+}
+@media only screen and (max-width: 600px) {
+   .container {
+      grid-template-columns: 1fr;
+   }
+}

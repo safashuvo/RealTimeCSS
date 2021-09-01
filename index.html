@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <title>New Documents</title>
+   </head>
+   <body>
+      <!-- main container -->
+      <div class="container">
+         <div class="customizeCol">
+            <div class="customContainer">
+               <div class="customHeader">
+                  <h1>Customize As You Want</h1>
+               </div>
+               <form>
+                  <div class="customBackground">
+                     <label for="text">Your Text</label>
+                     <input type="text" id="text" maxlength="25" />
+                  </div>
+                  <div class="customBackground">
+                     <label for="bgInput">Background</label>
+                     <input type="text" id="bgInput" />
+                  </div>
+                  <div class="customBackground">
+                     <label for="color">Text Color</label>
+                     <input type="text" id="color" />
+                  </div>
+                  <div class="customBackground">
+                     <label for="fontSize">Font Size</label>
+                     <input type="text" id="fontSize" />
+                  </div>
+                  <div class="customRadius">
+                     <label for="brInput">Border Radius</label>
+                     <input type="text" id="brInput" />
+                  </div>
+                  <div class="customRadius customSubmit">
+                     <input type="submit" value="Submit" class="submit"/>
+                     <input type="button" value="Reset" class="submit"/>
+                  </div>
+               </form>
+            </div>
+         </div>
+         <div class="styledCol">
+            <div class="styledContainer">
+               <div class="customHeader">
+                  <h1>See Your Design</h1>
+               </div>
+               <div class="subContainer">
+                  <div class="styledContent" id="styledContent">
+                     <h4></h4>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <script src="./app.js"></script>
+   </body>
+</html>
